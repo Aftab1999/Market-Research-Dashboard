@@ -1,0 +1,85 @@
+.comp-landscape-container {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.comp-landscape-header {
+  margin-bottom: 24px;
+}
+
+.comp-landscape-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  margin-bottom: 4px !important;
+}
+
+.comp-landscape-subtitle {
+  color: #666 !important;
+  font-size: 0.85rem !important;
+}
+
+.comp-landscape-chart {
+  background-color: white;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  height: 100%;
+  width: 100%;
+}
+
+.comp-chart-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  font-size: 1rem !important;
+  margin-bottom: 4px !important;
+}
+
+.comp-chart-subtitle {
+  color: #666 !important;
+  font-size: 0.75rem !important;
+  display: block;
+  margin-bottom: 16px !important;
+}
+
+.comp-chart-container {
+  position: relative;
+  width: 100%;
+}
+
+.comp-watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.comp-key-insight {
+  display: flex;
+  align-items: center;
+  background-color: #fff3e0 !important;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-top: 24px;
+  border-left: 4px solid #ff9800;
+}
+
+.comp-insight-icon {
+  color: #ff9800;
+  margin-right: 12px;
+}
+
+.comp-insight-label {
+  font-weight: 600;
+  margin-right: 4px;
+  color: #f57c00;
+}
+
+.comp-insight-text {
+  font-size: 0.9rem !important;
+  color: #e65100 !important;
+}

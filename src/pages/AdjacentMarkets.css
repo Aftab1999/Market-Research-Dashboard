@@ -1,0 +1,105 @@
+.adjacent-markets-container {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.adjacent-markets-header {
+  margin-bottom: 24px;
+}
+
+.adjacent-markets-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  margin-bottom: 4px !important;
+}
+
+.adjacent-markets-subtitle {
+  color: #666 !important;
+  font-size: 0.85rem !important;
+}
+
+.adjacent-markets-chart {
+  background-color: white;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  height: 100%;
+  width: 100%;
+}
+
+.adjacent-chart-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  font-size: 1rem !important;
+  margin-bottom: 4px !important;
+}
+
+.adjacent-chart-subtitle {
+  color: #666 !important;
+  font-size: 0.75rem !important;
+  display: block;
+  margin-bottom: 16px !important;
+}
+
+.adjacent-chart-container {
+  position: relative;
+  width: 100%;
+}
+
+.priority-labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  padding: 8px;
+}
+
+.priority-high {
+  color: #ff4444;
+  font-weight: 600;
+}
+
+.priority-medium {
+  color: #ffaa44;
+  font-weight: 600;
+}
+
+.analysis-list {
+  margin-top: 20px;
+}
+
+.analysis-item {
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+
+.high-priority {
+  background-color: #ffebee;
+  border-left-color: #ff4444;
+}
+
+.medium-priority {
+  background-color: #fff3e0;
+  border-left-color: #ffaa44;
+}
+
+.low-priority {
+  background-color: #e8f5e8;
+  border-left-color: #44aa44;
+}
+
+.analysis-name {
+  font-weight: 500 !important;
+  color: #333 !important;
+  font-size: 0.9rem !important;
+}
+
+.adjacent-watermark {
+  color: #999 !important;
+  font-style: italic !important;
+  font-size: 0.75rem !important;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}

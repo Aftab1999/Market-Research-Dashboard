@@ -1,0 +1,83 @@
+.market-overview-container {
+  background-color: #f5f5f5;
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  margin-bottom: 4px !important;
+}
+
+.page-subtitle {
+  color: #666 !important;
+  font-size: 0.85rem !important;
+}
+
+.chart-card {
+  background-color: white;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  height: 100%;
+  width: 100%;
+}
+
+.chart-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  font-size: 1rem !important;
+  margin-bottom: 4px !important;
+}
+
+.chart-subtitle {
+  color: #666 !important;
+  font-size: 0.75rem !important;
+  display: block;
+  margin-bottom: 16px !important;
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+}
+
+.watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.key-insight {
+  display: flex;
+  align-items: center;
+  background-color: #fff9c4 !important;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-top: 24px;
+  border-left: 4px solid #ffc107;
+}
+
+.insight-icon {
+  color: #ffc107;
+  margin-right: 12px;
+}
+
+.insight-label {
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.insight-text {
+  font-size: 0.9rem !important;
+  color: #5d4037 !important;
+}

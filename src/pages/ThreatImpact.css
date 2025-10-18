@@ -1,0 +1,81 @@
+.threat-impact-container {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.threat-impact-header {
+  margin-bottom: 24px;
+}
+
+.threat-impact-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  margin-bottom: 4px !important;
+}
+
+.threat-impact-subtitle {
+  color: #666 !important;
+  font-size: 0.85rem !important;
+}
+
+.threat-impact-chart {
+  background-color: white;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  height: 100%;
+  width: 100%;
+}
+
+.threat-chart-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  font-size: 1rem !important;
+  margin-bottom: 4px !important;
+}
+
+.threat-chart-subtitle {
+  color: #666 !important;
+  font-size: 0.75rem !important;
+  display: block;
+  margin-bottom: 16px !important;
+}
+
+.threat-chart-container {
+  position: relative;
+  width: 100%;
+}
+
+.risk-labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  padding: 8px;
+}
+
+.risk-critical {
+  color: #ff4444;
+  font-weight: 600;
+}
+
+.risk-high {
+  color: #ffaa44;
+  font-weight: 600;
+}
+
+.risk-evolution-container {
+  margin-top: 20px;
+}
+
+.timeline-chart {
+  margin-top: 20px;
+}
+
+.threat-watermark {
+  color: #999 !important;
+  font-style: italic !important;
+  font-size: 0.75rem !important;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}

@@ -1,0 +1,91 @@
+.re-analysis-container {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.re-analysis-header {
+  margin-bottom: 24px;
+}
+
+.re-analysis-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  margin-bottom: 4px !important;
+}
+
+.re-analysis-subtitle {
+  color: #666 !important;
+  font-size: 0.85rem !important;
+}
+
+.re-analysis-chart {
+  background-color: white;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  height: 100%;
+  width: 100%;
+}
+
+.re-chart-title {
+  font-weight: 600 !important;
+  color: #2c4470 !important;
+  font-size: 1rem !important;
+  margin-bottom: 4px !important;
+}
+
+.re-chart-subtitle {
+  color: #666 !important;
+  font-size: 0.75rem !important;
+  display: block;
+  margin-bottom: 16px !important;
+}
+
+.re-chart-container {
+  position: relative;
+  width: 100%;
+}
+
+.re-watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.re-key-insight {
+  display: flex;
+  align-items: center;
+  background-color: #e8f5e8 !important;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-top: 24px;
+  border-left: 4px solid #4caf50;
+}
+
+.re-insight-icon {
+  color: #4caf50;
+  margin-right: 12px;
+}
+
+.re-insight-label {
+  font-weight: 600;
+  margin-right: 4px;
+  color: #2e7d32;
+}
+
+.re-insight-text {
+  font-size: 0.9rem !important;
+  color: #1b5e20 !important;
+}
+
+.growth-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
